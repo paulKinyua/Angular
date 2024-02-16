@@ -1,0 +1,8 @@
+setting up a project
+----------------------------------------------------------------
+1. Check if you have node installed in your machine by running npm --version
+    if node is not installed, you can follow the instructions from the official node website
+2. Check if you have angular installed in your machine by running ng version 
+    if angular is not installed, you can install it after running : npm install -g @angular/cli 
+3. Run ng new [project_name] to initialise a new angular project.
+4. From the command prompt, cd to the project directory and run ng serve to confirm that your project was successfully created. 
