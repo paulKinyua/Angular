@@ -1,0 +1,23 @@
+from the root directory, we have 3 ts files that are generated when we create the project.
+NB: Angular uses typescript and not javascript
+
+tsconfig.spec.json - will hold the unit testing files that will be in uses
+tsconfig.json - the main ts configuration file. 
+Readme.md - will be utilised by github. 
+package.json = gives us the name, version and scripts of the project
+            the scripts contain key values that hold commands that can be executed. 
+            An example is the start command, which has been tied to ng serve, the command used to run your angular project.
+            To run ng serve, you can use npm run start
+            The dependencies section holds all the internal packages that will be used in the project.
+            Devdependencies will hold packages that will be used only during development. 
+angular.json - you can change and modify the angular configuration from here. 
+node_modules folder - All dependencies declared in the package.json folder will be installed here. 
+src folder - This will hold all the angular code that we will be writing
+------src files start here ------
+    style.scss - global styles
+    main.ts - the main page that will run when the application starts.
+    index.html - runs by default at the start whenever a project is running. 
+    assets folder - The assets folder will contain all the images that will be used in the app. 
+    app folder 
+        app.modules.ts - will hold all the modules that will be used in the project
+        
